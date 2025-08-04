@@ -29,7 +29,7 @@ const GalleryImage = ({ src, alt }: { src: string; alt: string }) => {
 
 const Gallery = () => {
   return (
-    <div className="mt-24 relative">
+    <div className="mt-24 relative flex justify-center items-center flex-col">
       <div className="absolute flex flex-wrap">
         {Array.from({ length: 2 }, (_, i) => (
           <Image
