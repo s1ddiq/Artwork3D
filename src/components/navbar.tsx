@@ -12,7 +12,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="relative rounded-lg w-full p-4 backdrop-blur-md bg-radial from-primary via-transparent-100% to-primary">
+    <div className="rounded-lg w-full p-4 backdrop-blur-md bg-radial from-primary via-transparent-100% to-primary sticky top-0">
       {/* Background video */}
       {isClient && (
         <video
