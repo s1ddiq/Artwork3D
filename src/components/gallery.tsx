@@ -38,6 +38,7 @@ const Gallery = () => {
             height={512}
             alt="Glow Effect"
             className="w-full object-cover"
+            key={i}
           />
         ))}
       </div>
