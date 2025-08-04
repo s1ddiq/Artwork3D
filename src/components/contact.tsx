@@ -1,4 +1,3 @@
-import Image from "next/image";
 import ContactForm from "./contact-form";
 const Contact = () => {
   return (

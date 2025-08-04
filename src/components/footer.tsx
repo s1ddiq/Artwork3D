@@ -3,7 +3,6 @@
 import { SignedIn, SignedOut, useClerk, UserButton } from "@clerk/nextjs";
 import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
-import { InstagramIcon } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 

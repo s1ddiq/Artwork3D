@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="w-full grid md:grid-cols-2 gap-6 ">
         <div className="flex flex-col gap-6">
           <p className="text-sm font-extralight tracking-wide">
-            Hi, I'm Artwork
+            Hi, I&apos;m Artwork
           </p>
           <p className="text-5xl font-light">
             Delivering stunning{" "}
@@ -24,9 +24,9 @@ const Hero = () => {
             and experiences using blender.
           </p>
           <p className="font-extralight tracking-wide text-xl">
-            I'm a 3D Artist and Blender Specialist with 4+ years experience in
-            modeling, animation, and visual storytelling. Check out my projects
-            and style.
+            I&apos;m a 3D Artist and Blender Specialist with 4+ years experience
+            in modeling, animation, and visual storytelling. Check out my
+            projects and style.
           </p>
 
           <Button className="w-1/2">Learn More</Button>
